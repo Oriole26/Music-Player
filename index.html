@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="player">
+        <div class="dashboard">
+
+            <div class="header">
+                <h4 class="header__title">Playing Music</h4>
+            </div>
+            <div class="list-music">
+                <i class="fa-solid fa-list list-music__icon"></i>
+            </div>
+            <div class="cd">
+                <div class="cd-thumb"></div>
+                <div class="cd-info">
+ 
+                    <div>
+                        <h2 class="cd-song">Opening Title</h2>
+                        <p class="cd-singer">Kim Kyung Hee</p>
+
+                    </div>
+                    <!-- <i class="cd-saved fa-solid fa-bookmark"></i>
+                    <i class="cd-saved far fa-bookmark"></i>
+                    <i class="cd-saved saved fas fa-bookmark" style="display:none;"></i> -->
+
+
+                </div>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <span></span>
+                </div>
+                <div class="timer">
+                    <span class="current-time">0:30</span>
+                    <span class="max-duration">3:40</span>
+                </div>
+            </div>
+           
+            <audio id="audio" src=""></audio>
+            <div class="control">
+                <div class="btn btn-random ">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fa-solid fa-backward-step"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="fa-solid fa-play icon-play"></i>
+                    <i class="fa-solid fa-pause icon-pause"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="btn btn-repeat">
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-repeat-1"></i>
+                </div>
+            </div>
+        </div>
+       <div class="wrapper">
+        <div class="wrapper-header">
+            <i class="fa-solid fa-list wrap__icon"></i>
+            <span class="playlist-title">Music list</span>
+            <i class="playlist-close fas fa-xmark"></i>
+        </div>
+
+           <div class="playlist">
+                   <!-- <div class="song">
+                       <div class="thumb" style="background-image: url('./img/anh4.jpeg')">
+                       </div>
+                       <div class="body">
+                         <h3 class="title">Music name Music name Music nameMusic nameMusic name</h3>
+                         <p class="author">Singer</p>
+                       </div>
+                       <div class="option">
+                         <i class="fas fa-ellipsis-h"></i>
+                       </div>
+                   </div>
+   
+                   <div class="song">
+                       <div class="thumb" style="background-image: url('./img/anh1.jpeg')">
+                       </div>
+                       <div class="body">
+                         <h3 class="title">Music name</h3>
+                         <p class="author">Singer</p>
+                       </div>
+                       <div class="option">
+                         <i class="fas fa-ellipsis-h"></i>
+                       </div>
+                   </div>
+   
+                   <div class="song">
+                       <div class="thumb" style="background-image: url('./img/anh1.jpeg')">
+                       </div>
+                       <div class="body">
+                         <h3 class="title">Music name</h3>
+                         <p class="author">Singer</p>
+                       </div>
+                       <div class="option">
+                         <i class="fas fa-ellipsis-h"></i>
+                       </div>
+                   </div> -->
+           </div> 
+       </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
